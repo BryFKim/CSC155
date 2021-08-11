@@ -1,0 +1,14 @@
+/home/bfhk/CLionProjects/CSC_155/exercises/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/bfhk/CLionProjects/CSC_155/exercises/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/bfhk/CLionProjects/CSC_155/exercises/cmake-build-debug/exercise_1/CMakeFiles/rebuild_cache.dir
+/home/bfhk/CLionProjects/CSC_155/exercises/cmake-build-debug/exercise_1/CMakeFiles/edit_cache.dir
+/home/bfhk/CLionProjects/CSC_155/exercises/cmake-build-debug/exercise_1/CMakeFiles/exercise_1.dir
+/home/bfhk/CLionProjects/CSC_155/exercises/cmake-build-debug/exercise_2/CMakeFiles/edit_cache.dir
+/home/bfhk/CLionProjects/CSC_155/exercises/cmake-build-debug/exercise_2/CMakeFiles/rebuild_cache.dir
+/home/bfhk/CLionProjects/CSC_155/exercises/cmake-build-debug/exercise_2/CMakeFiles/exercise_2.dir
+/home/bfhk/CLionProjects/CSC_155/exercises/cmake-build-debug/exercise_3/CMakeFiles/rebuild_cache.dir
+/home/bfhk/CLionProjects/CSC_155/exercises/cmake-build-debug/exercise_3/CMakeFiles/edit_cache.dir
+/home/bfhk/CLionProjects/CSC_155/exercises/cmake-build-debug/exercise_3/CMakeFiles/exercise_3.dir
+/home/bfhk/CLionProjects/CSC_155/exercises/cmake-build-debug/exercise_4/CMakeFiles/rebuild_cache.dir
+/home/bfhk/CLionProjects/CSC_155/exercises/cmake-build-debug/exercise_4/CMakeFiles/edit_cache.dir
+/home/bfhk/CLionProjects/CSC_155/exercises/cmake-build-debug/exercise_4/CMakeFiles/exercise_4.dir

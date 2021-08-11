@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bfhk/CLionProjects/CSC_155/labs/lab_5/lab_5_alternate.cpp
+iostream
+-
+string
+-
+cmath
+-
+

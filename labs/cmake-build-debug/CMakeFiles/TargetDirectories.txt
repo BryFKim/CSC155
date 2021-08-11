@@ -1,0 +1,17 @@
+/home/bfhk/CLionProjects/CSC_155/labs/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/bfhk/CLionProjects/CSC_155/labs/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/bfhk/CLionProjects/CSC_155/labs/cmake-build-debug/lab_1/CMakeFiles/rebuild_cache.dir
+/home/bfhk/CLionProjects/CSC_155/labs/cmake-build-debug/lab_1/CMakeFiles/edit_cache.dir
+/home/bfhk/CLionProjects/CSC_155/labs/cmake-build-debug/lab_1/CMakeFiles/lab_1.dir
+/home/bfhk/CLionProjects/CSC_155/labs/cmake-build-debug/lab_2/CMakeFiles/rebuild_cache.dir
+/home/bfhk/CLionProjects/CSC_155/labs/cmake-build-debug/lab_2/CMakeFiles/edit_cache.dir
+/home/bfhk/CLionProjects/CSC_155/labs/cmake-build-debug/lab_2/CMakeFiles/lab_2.dir
+/home/bfhk/CLionProjects/CSC_155/labs/cmake-build-debug/lab_3/CMakeFiles/edit_cache.dir
+/home/bfhk/CLionProjects/CSC_155/labs/cmake-build-debug/lab_3/CMakeFiles/rebuild_cache.dir
+/home/bfhk/CLionProjects/CSC_155/labs/cmake-build-debug/lab_3/CMakeFiles/lab_3.dir
+/home/bfhk/CLionProjects/CSC_155/labs/cmake-build-debug/lab_4/CMakeFiles/edit_cache.dir
+/home/bfhk/CLionProjects/CSC_155/labs/cmake-build-debug/lab_4/CMakeFiles/rebuild_cache.dir
+/home/bfhk/CLionProjects/CSC_155/labs/cmake-build-debug/lab_4/CMakeFiles/lab_4.dir
+/home/bfhk/CLionProjects/CSC_155/labs/cmake-build-debug/lab_5/CMakeFiles/edit_cache.dir
+/home/bfhk/CLionProjects/CSC_155/labs/cmake-build-debug/lab_5/CMakeFiles/rebuild_cache.dir
+/home/bfhk/CLionProjects/CSC_155/labs/cmake-build-debug/lab_5/CMakeFiles/lab_5.dir
