@@ -11,15 +11,14 @@ using namespace std;
 
 //Place some function prototypes
 
-//int selectionRange(int marbles); //Returns the range of possible marble selection values
-//void printInstructions(int numMarbs, int playerFirst, int compSmart); //Prints Instructions and how the game is played, and provides basic info about game setup
-//int playerSelect(int marbles); //Returns the number of marbles the player is selecting
-//int smartComputer(int marbles); //For smart computer moves - returns the number of marbles TAKEN
-//int dumbComputer(int marbles); //For dumb computer moves -  returns the number of marbles TAKEN
+int selectionRange(int marbles); //Returns the range of possible marble selection values
+void printInstructions(int numMarbs, int playerFirst, int compSmart); //Prints Instructions and how the game is played, and provides basic info about game setup
+int playerSelect(int marbles); //Returns the number of marbles the player is selecting
+int smartComputer(int marbles); //For smart computer moves - returns the number of marbles TAKEN
+int dumbComputer(int marbles); //For dumb computer moves -  returns the number of marbles TAKEN
 
 
-int main_55()
-{
+int main(){
     srand(time(0));   //set the random seed
     //Determine the random number of marbles in the bowl: 10 to 100
     int numMarbles = rand() % 91 + 10;

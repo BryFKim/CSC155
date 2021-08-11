@@ -181,6 +181,58 @@ lab_5/fast:
 	$(MAKE) $(MAKESILENT) -f labs/lab_5/CMakeFiles/lab_5.dir/build.make labs/lab_5/CMakeFiles/lab_5.dir/build
 .PHONY : lab_5/fast
 
+#=============================================================================
+# Target rules for targets named exercise_1
+
+# Build rule for target.
+exercise_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exercise_1
+.PHONY : exercise_1
+
+# fast build rule for target.
+exercise_1/fast:
+	$(MAKE) $(MAKESILENT) -f exercises/exercise_1/CMakeFiles/exercise_1.dir/build.make exercises/exercise_1/CMakeFiles/exercise_1.dir/build
+.PHONY : exercise_1/fast
+
+#=============================================================================
+# Target rules for targets named exercise_2
+
+# Build rule for target.
+exercise_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exercise_2
+.PHONY : exercise_2
+
+# fast build rule for target.
+exercise_2/fast:
+	$(MAKE) $(MAKESILENT) -f exercises/exercise_2/CMakeFiles/exercise_2.dir/build.make exercises/exercise_2/CMakeFiles/exercise_2.dir/build
+.PHONY : exercise_2/fast
+
+#=============================================================================
+# Target rules for targets named exercise_3
+
+# Build rule for target.
+exercise_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exercise_3
+.PHONY : exercise_3
+
+# fast build rule for target.
+exercise_3/fast:
+	$(MAKE) $(MAKESILENT) -f exercises/exercise_3/CMakeFiles/exercise_3.dir/build.make exercises/exercise_3/CMakeFiles/exercise_3.dir/build
+.PHONY : exercise_3/fast
+
+#=============================================================================
+# Target rules for targets named exercise_4
+
+# Build rule for target.
+exercise_4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exercise_4
+.PHONY : exercise_4
+
+# fast build rule for target.
+exercise_4/fast:
+	$(MAKE) $(MAKESILENT) -f exercises/exercise_4/CMakeFiles/exercise_4.dir/build.make exercises/exercise_4/CMakeFiles/exercise_4.dir/build
+.PHONY : exercise_4/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -189,6 +241,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... exercise_1"
+	@echo "... exercise_2"
+	@echo "... exercise_3"
+	@echo "... exercise_4"
 	@echo "... lab_1"
 	@echo "... lab_2"
 	@echo "... lab_3"

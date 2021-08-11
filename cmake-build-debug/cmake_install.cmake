@@ -67,6 +67,26 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/bfhk/CLionProjects/CSC_155/cmake-build-debug/labs/lab_5/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/bfhk/CLionProjects/CSC_155/cmake-build-debug/exercises/exercise_1/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/bfhk/CLionProjects/CSC_155/cmake-build-debug/exercises/exercise_2/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/bfhk/CLionProjects/CSC_155/cmake-build-debug/exercises/exercise_3/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/bfhk/CLionProjects/CSC_155/cmake-build-debug/exercises/exercise_4/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()

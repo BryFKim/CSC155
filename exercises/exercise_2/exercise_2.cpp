@@ -23,7 +23,7 @@
 #include <string>
 using namespace std;
 
-int main_e2(){
+int main(){
     //Declare a string and integer variable to hold name, age, and age in days.
     string name;
     int age;

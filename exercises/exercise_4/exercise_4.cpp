@@ -19,7 +19,7 @@ int dumbComputer(int marbles); //For dumb computer moves -  returns the number o
 int playRound(); //Play a round of Nim- returns 0 if Computer wins or 1 if Player Wins
 void playTournament(int rounds); //Play a tournament of NIM, multiple times.
 
-int main_44(){
+int main(){
     playTournament(3);
     return 0;
 }

@@ -68,6 +68,10 @@ all: labs/lab_2/all
 all: labs/lab_3/all
 all: labs/lab_4/all
 all: labs/lab_5/all
+all: exercises/exercise_1/all
+all: exercises/exercise_2/all
+all: exercises/exercise_3/all
+all: exercises/exercise_4/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +80,10 @@ preinstall: labs/lab_2/preinstall
 preinstall: labs/lab_3/preinstall
 preinstall: labs/lab_4/preinstall
 preinstall: labs/lab_5/preinstall
+preinstall: exercises/exercise_1/preinstall
+preinstall: exercises/exercise_2/preinstall
+preinstall: exercises/exercise_3/preinstall
+preinstall: exercises/exercise_4/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -84,7 +92,71 @@ clean: labs/lab_2/clean
 clean: labs/lab_3/clean
 clean: labs/lab_4/clean
 clean: labs/lab_5/clean
+clean: exercises/exercise_1/clean
+clean: exercises/exercise_2/clean
+clean: exercises/exercise_3/clean
+clean: exercises/exercise_4/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory exercises/exercise_1
+
+# Recursive "all" directory target.
+exercises/exercise_1/all: exercises/exercise_1/CMakeFiles/exercise_1.dir/all
+.PHONY : exercises/exercise_1/all
+
+# Recursive "preinstall" directory target.
+exercises/exercise_1/preinstall:
+.PHONY : exercises/exercise_1/preinstall
+
+# Recursive "clean" directory target.
+exercises/exercise_1/clean: exercises/exercise_1/CMakeFiles/exercise_1.dir/clean
+.PHONY : exercises/exercise_1/clean
+
+#=============================================================================
+# Directory level rules for directory exercises/exercise_2
+
+# Recursive "all" directory target.
+exercises/exercise_2/all: exercises/exercise_2/CMakeFiles/exercise_2.dir/all
+.PHONY : exercises/exercise_2/all
+
+# Recursive "preinstall" directory target.
+exercises/exercise_2/preinstall:
+.PHONY : exercises/exercise_2/preinstall
+
+# Recursive "clean" directory target.
+exercises/exercise_2/clean: exercises/exercise_2/CMakeFiles/exercise_2.dir/clean
+.PHONY : exercises/exercise_2/clean
+
+#=============================================================================
+# Directory level rules for directory exercises/exercise_3
+
+# Recursive "all" directory target.
+exercises/exercise_3/all: exercises/exercise_3/CMakeFiles/exercise_3.dir/all
+.PHONY : exercises/exercise_3/all
+
+# Recursive "preinstall" directory target.
+exercises/exercise_3/preinstall:
+.PHONY : exercises/exercise_3/preinstall
+
+# Recursive "clean" directory target.
+exercises/exercise_3/clean: exercises/exercise_3/CMakeFiles/exercise_3.dir/clean
+.PHONY : exercises/exercise_3/clean
+
+#=============================================================================
+# Directory level rules for directory exercises/exercise_4
+
+# Recursive "all" directory target.
+exercises/exercise_4/all: exercises/exercise_4/CMakeFiles/exercise_4.dir/all
+.PHONY : exercises/exercise_4/all
+
+# Recursive "preinstall" directory target.
+exercises/exercise_4/preinstall:
+.PHONY : exercises/exercise_4/preinstall
+
+# Recursive "clean" directory target.
+exercises/exercise_4/clean: exercises/exercise_4/CMakeFiles/exercise_4.dir/clean
+.PHONY : exercises/exercise_4/clean
 
 #=============================================================================
 # Directory level rules for directory labs/lab_1
@@ -168,7 +240,7 @@ labs/lab_5/clean: labs/lab_5/CMakeFiles/lab_5.dir/clean
 labs/lab_1/CMakeFiles/lab_1.dir/all:
 	$(MAKE) $(MAKESILENT) -f labs/lab_1/CMakeFiles/lab_1.dir/build.make labs/lab_1/CMakeFiles/lab_1.dir/depend
 	$(MAKE) $(MAKESILENT) -f labs/lab_1/CMakeFiles/lab_1.dir/build.make labs/lab_1/CMakeFiles/lab_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bfhk/CLionProjects/CSC_155/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target lab_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bfhk/CLionProjects/CSC_155/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target lab_1"
 .PHONY : labs/lab_1/CMakeFiles/lab_1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -194,7 +266,7 @@ labs/lab_1/CMakeFiles/lab_1.dir/clean:
 labs/lab_2/CMakeFiles/lab_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f labs/lab_2/CMakeFiles/lab_2.dir/build.make labs/lab_2/CMakeFiles/lab_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f labs/lab_2/CMakeFiles/lab_2.dir/build.make labs/lab_2/CMakeFiles/lab_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bfhk/CLionProjects/CSC_155/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target lab_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bfhk/CLionProjects/CSC_155/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target lab_2"
 .PHONY : labs/lab_2/CMakeFiles/lab_2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -220,7 +292,7 @@ labs/lab_2/CMakeFiles/lab_2.dir/clean:
 labs/lab_3/CMakeFiles/lab_3.dir/all:
 	$(MAKE) $(MAKESILENT) -f labs/lab_3/CMakeFiles/lab_3.dir/build.make labs/lab_3/CMakeFiles/lab_3.dir/depend
 	$(MAKE) $(MAKESILENT) -f labs/lab_3/CMakeFiles/lab_3.dir/build.make labs/lab_3/CMakeFiles/lab_3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bfhk/CLionProjects/CSC_155/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target lab_3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bfhk/CLionProjects/CSC_155/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target lab_3"
 .PHONY : labs/lab_3/CMakeFiles/lab_3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -246,7 +318,7 @@ labs/lab_3/CMakeFiles/lab_3.dir/clean:
 labs/lab_4/CMakeFiles/lab_4.dir/all:
 	$(MAKE) $(MAKESILENT) -f labs/lab_4/CMakeFiles/lab_4.dir/build.make labs/lab_4/CMakeFiles/lab_4.dir/depend
 	$(MAKE) $(MAKESILENT) -f labs/lab_4/CMakeFiles/lab_4.dir/build.make labs/lab_4/CMakeFiles/lab_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bfhk/CLionProjects/CSC_155/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target lab_4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bfhk/CLionProjects/CSC_155/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target lab_4"
 .PHONY : labs/lab_4/CMakeFiles/lab_4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -272,7 +344,7 @@ labs/lab_4/CMakeFiles/lab_4.dir/clean:
 labs/lab_5/CMakeFiles/lab_5.dir/all:
 	$(MAKE) $(MAKESILENT) -f labs/lab_5/CMakeFiles/lab_5.dir/build.make labs/lab_5/CMakeFiles/lab_5.dir/depend
 	$(MAKE) $(MAKESILENT) -f labs/lab_5/CMakeFiles/lab_5.dir/build.make labs/lab_5/CMakeFiles/lab_5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bfhk/CLionProjects/CSC_155/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target lab_5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bfhk/CLionProjects/CSC_155/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target lab_5"
 .PHONY : labs/lab_5/CMakeFiles/lab_5.dir/all
 
 # Build rule for subdir invocation for target.
@@ -290,6 +362,110 @@ lab_5: labs/lab_5/CMakeFiles/lab_5.dir/rule
 labs/lab_5/CMakeFiles/lab_5.dir/clean:
 	$(MAKE) $(MAKESILENT) -f labs/lab_5/CMakeFiles/lab_5.dir/build.make labs/lab_5/CMakeFiles/lab_5.dir/clean
 .PHONY : labs/lab_5/CMakeFiles/lab_5.dir/clean
+
+#=============================================================================
+# Target rules for target exercises/exercise_1/CMakeFiles/exercise_1.dir
+
+# All Build rule for target.
+exercises/exercise_1/CMakeFiles/exercise_1.dir/all:
+	$(MAKE) $(MAKESILENT) -f exercises/exercise_1/CMakeFiles/exercise_1.dir/build.make exercises/exercise_1/CMakeFiles/exercise_1.dir/depend
+	$(MAKE) $(MAKESILENT) -f exercises/exercise_1/CMakeFiles/exercise_1.dir/build.make exercises/exercise_1/CMakeFiles/exercise_1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bfhk/CLionProjects/CSC_155/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target exercise_1"
+.PHONY : exercises/exercise_1/CMakeFiles/exercise_1.dir/all
+
+# Build rule for subdir invocation for target.
+exercises/exercise_1/CMakeFiles/exercise_1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bfhk/CLionProjects/CSC_155/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exercises/exercise_1/CMakeFiles/exercise_1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bfhk/CLionProjects/CSC_155/cmake-build-debug/CMakeFiles 0
+.PHONY : exercises/exercise_1/CMakeFiles/exercise_1.dir/rule
+
+# Convenience name for target.
+exercise_1: exercises/exercise_1/CMakeFiles/exercise_1.dir/rule
+.PHONY : exercise_1
+
+# clean rule for target.
+exercises/exercise_1/CMakeFiles/exercise_1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f exercises/exercise_1/CMakeFiles/exercise_1.dir/build.make exercises/exercise_1/CMakeFiles/exercise_1.dir/clean
+.PHONY : exercises/exercise_1/CMakeFiles/exercise_1.dir/clean
+
+#=============================================================================
+# Target rules for target exercises/exercise_2/CMakeFiles/exercise_2.dir
+
+# All Build rule for target.
+exercises/exercise_2/CMakeFiles/exercise_2.dir/all:
+	$(MAKE) $(MAKESILENT) -f exercises/exercise_2/CMakeFiles/exercise_2.dir/build.make exercises/exercise_2/CMakeFiles/exercise_2.dir/depend
+	$(MAKE) $(MAKESILENT) -f exercises/exercise_2/CMakeFiles/exercise_2.dir/build.make exercises/exercise_2/CMakeFiles/exercise_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bfhk/CLionProjects/CSC_155/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target exercise_2"
+.PHONY : exercises/exercise_2/CMakeFiles/exercise_2.dir/all
+
+# Build rule for subdir invocation for target.
+exercises/exercise_2/CMakeFiles/exercise_2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bfhk/CLionProjects/CSC_155/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exercises/exercise_2/CMakeFiles/exercise_2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bfhk/CLionProjects/CSC_155/cmake-build-debug/CMakeFiles 0
+.PHONY : exercises/exercise_2/CMakeFiles/exercise_2.dir/rule
+
+# Convenience name for target.
+exercise_2: exercises/exercise_2/CMakeFiles/exercise_2.dir/rule
+.PHONY : exercise_2
+
+# clean rule for target.
+exercises/exercise_2/CMakeFiles/exercise_2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f exercises/exercise_2/CMakeFiles/exercise_2.dir/build.make exercises/exercise_2/CMakeFiles/exercise_2.dir/clean
+.PHONY : exercises/exercise_2/CMakeFiles/exercise_2.dir/clean
+
+#=============================================================================
+# Target rules for target exercises/exercise_3/CMakeFiles/exercise_3.dir
+
+# All Build rule for target.
+exercises/exercise_3/CMakeFiles/exercise_3.dir/all:
+	$(MAKE) $(MAKESILENT) -f exercises/exercise_3/CMakeFiles/exercise_3.dir/build.make exercises/exercise_3/CMakeFiles/exercise_3.dir/depend
+	$(MAKE) $(MAKESILENT) -f exercises/exercise_3/CMakeFiles/exercise_3.dir/build.make exercises/exercise_3/CMakeFiles/exercise_3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bfhk/CLionProjects/CSC_155/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target exercise_3"
+.PHONY : exercises/exercise_3/CMakeFiles/exercise_3.dir/all
+
+# Build rule for subdir invocation for target.
+exercises/exercise_3/CMakeFiles/exercise_3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bfhk/CLionProjects/CSC_155/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exercises/exercise_3/CMakeFiles/exercise_3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bfhk/CLionProjects/CSC_155/cmake-build-debug/CMakeFiles 0
+.PHONY : exercises/exercise_3/CMakeFiles/exercise_3.dir/rule
+
+# Convenience name for target.
+exercise_3: exercises/exercise_3/CMakeFiles/exercise_3.dir/rule
+.PHONY : exercise_3
+
+# clean rule for target.
+exercises/exercise_3/CMakeFiles/exercise_3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f exercises/exercise_3/CMakeFiles/exercise_3.dir/build.make exercises/exercise_3/CMakeFiles/exercise_3.dir/clean
+.PHONY : exercises/exercise_3/CMakeFiles/exercise_3.dir/clean
+
+#=============================================================================
+# Target rules for target exercises/exercise_4/CMakeFiles/exercise_4.dir
+
+# All Build rule for target.
+exercises/exercise_4/CMakeFiles/exercise_4.dir/all:
+	$(MAKE) $(MAKESILENT) -f exercises/exercise_4/CMakeFiles/exercise_4.dir/build.make exercises/exercise_4/CMakeFiles/exercise_4.dir/depend
+	$(MAKE) $(MAKESILENT) -f exercises/exercise_4/CMakeFiles/exercise_4.dir/build.make exercises/exercise_4/CMakeFiles/exercise_4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/bfhk/CLionProjects/CSC_155/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target exercise_4"
+.PHONY : exercises/exercise_4/CMakeFiles/exercise_4.dir/all
+
+# Build rule for subdir invocation for target.
+exercises/exercise_4/CMakeFiles/exercise_4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bfhk/CLionProjects/CSC_155/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exercises/exercise_4/CMakeFiles/exercise_4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bfhk/CLionProjects/CSC_155/cmake-build-debug/CMakeFiles 0
+.PHONY : exercises/exercise_4/CMakeFiles/exercise_4.dir/rule
+
+# Convenience name for target.
+exercise_4: exercises/exercise_4/CMakeFiles/exercise_4.dir/rule
+.PHONY : exercise_4
+
+# clean rule for target.
+exercises/exercise_4/CMakeFiles/exercise_4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f exercises/exercise_4/CMakeFiles/exercise_4.dir/build.make exercises/exercise_4/CMakeFiles/exercise_4.dir/clean
+.PHONY : exercises/exercise_4/CMakeFiles/exercise_4.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -19,7 +19,7 @@
 
 using namespace std;
 
-int main_e3(){
+int main(){
     //Declare variable to hold year values from input file
     int year;
     //Declare variable to hold the path to the input file and output file

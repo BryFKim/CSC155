@@ -11,6 +11,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.20.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeSystem.cmake"
+  "../exercises/exercise_1/CMakeLists.txt"
+  "../exercises/exercise_2/CMakeLists.txt"
+  "../exercises/exercise_3/CMakeLists.txt"
+  "../exercises/exercise_4/CMakeLists.txt"
   "../labs/lab_1/CMakeLists.txt"
   "../labs/lab_2/CMakeLists.txt"
   "../labs/lab_3/CMakeLists.txt"
@@ -52,6 +56,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "labs/lab_3/CMakeFiles/CMakeDirectoryInformation.cmake"
   "labs/lab_4/CMakeFiles/CMakeDirectoryInformation.cmake"
   "labs/lab_5/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "exercises/exercise_1/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "exercises/exercise_2/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "exercises/exercise_3/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "exercises/exercise_4/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -61,4 +69,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "labs/lab_3/CMakeFiles/lab_3.dir/DependInfo.cmake"
   "labs/lab_4/CMakeFiles/lab_4.dir/DependInfo.cmake"
   "labs/lab_5/CMakeFiles/lab_5.dir/DependInfo.cmake"
+  "exercises/exercise_1/CMakeFiles/exercise_1.dir/DependInfo.cmake"
+  "exercises/exercise_2/CMakeFiles/exercise_2.dir/DependInfo.cmake"
+  "exercises/exercise_3/CMakeFiles/exercise_3.dir/DependInfo.cmake"
+  "exercises/exercise_4/CMakeFiles/exercise_4.dir/DependInfo.cmake"
   )

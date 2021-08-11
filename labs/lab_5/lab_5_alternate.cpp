@@ -24,8 +24,7 @@ string encodeDigit(char digit); // Encode a digit to POSTNET Standards
 string encodeZIP(string zip); //Encode a ZIP to POSTNET standards
 
 
-int main()
-{
+int main(){
     //Obtain the zip code from the user
     string zip = getZipCode();
     cout << "The zip you have provided is: " << zip << endl;
